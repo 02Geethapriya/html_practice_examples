@@ -1,4 +1,4 @@
-# html_practice_examples
+html_practice_examples
 
-To demonstrate usage of basic HTML tags
+To demonstrate usage of basic HTML tags and css file
 
