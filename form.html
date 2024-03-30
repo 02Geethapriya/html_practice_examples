@@ -1,0 +1,128 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopy</title>
+    <style>
+        .full{
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            border-radius: 10px;
+            background-color: blueviolet;
+        }
+        .all{
+            background-color: rgb(148, 211, 54);
+            
+            margin: 10px;
+            border-radius: 5px;
+            padding: 5%;
+            width: 350px;
+            height: 570px;
+        }
+        .one{
+            
+           
+        }
+        .two{
+            
+            
+        }
+        .three{
+             
+        }
+        .inside{
+            padding: 10px;
+            
+            background-color: rgb(210, 209, 209);
+            
+            border-radius: 10px;
+            border-color: aqua;
+            gap: 10px;
+            margin-bottom: 4px;
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+<div class="full">
+    <form action="" >
+    <div class="all"> 
+        <div class="one">
+            <div > Step1: Your details</div>
+            <div class="inside">
+                <label for="name">Name:</label>
+                <input type="name" id="name" placeholder="Enter name">
+            </div>
+            <div class="inside">
+                <label for="mail">Email:</label>
+                <input type="email" id="mail">
+            </div>
+            <div class="inside">    
+                <label for="phone">Phone:</label>
+                <input type="number" id="phone">
+            </div>    
+            
+        </div>
+
+        <div>
+            <div class="two"> Step2: Delivery Address</div>
+            
+            <div class="inside">
+                <label for="add">Address:</label>
+                <textarea id="w3review" name="w3review" rows="4" cols="50" >
+        
+                    </textarea>
+            </div>
+            <div class="inside">    
+                <label for="code">Post Code:</label>
+                <input type="number" id="code">
+            </div>
+            <div class="inside">
+                <label for="coun">Country:</label>
+                <input type="name" id="coun">
+            </div>
+            
+        </div>
+
+        <div>
+            <div class="three"> Step3: Card Details</div>
+            <div style="border: 2px;padding: 4px 8px;
+            margin: 4px 0px;
+            background: #e8e4e499; " 
+            >
+            <div style="border: 2px;padding: 4px 8px;
+            margin: 4px 0px;
+            background: #f0eaea99; " 
+            >Card Type
+                <div>
+                <label for="Visa">Visa</label>
+                <input type="radio" id="Visa" name="card">
+                
+                <label for="amex">Am Ex</label>
+                <input type="radio" id="amex" name="card">
+                
+                <label for="master">Master Card</label>
+                <input type="radio" id="master" name="card"> 
+            </div>
+        <div class="inside">   
+            <label for="no">Card Number</label>
+            <input type="number" id="no">
+        
+        </div>
+        <div class="inside">
+            <label for="secure">Security Code</label>
+            <input type="number" id="no">
+        </div>
+        <div class="inside">
+            <label for="card"> Name on Card </label>
+            <input type="text" id="card">
+        </div>
+        </div>
+    </div>
+    </form>
+</div>
+</body>
+</html>
